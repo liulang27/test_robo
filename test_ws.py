@@ -1,8 +1,8 @@
-import unittest, time
+import time
 from selenium import webdriver
 
 
-class TestClass(unittest.TestCase):
+class TestClass():
 
     def setUp(self):
         self.driver = webdriver.Chrome()
@@ -25,5 +25,5 @@ class TestClass(unittest.TestCase):
         search_input.submit()
 
 
-if __name__ == '__main__':
-    unittest.main()
+# if __name__ == '__main__':
+#     unittest.main()
